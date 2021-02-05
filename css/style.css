@@ -3,13 +3,12 @@
   --title-grey: #212121;
   --dark-back: #2F303A;
   --light-back: #F5F4FA;
-  --back-white: #ffffff;
-  --text-white: #ffffff;
+  --white: #ffffff;
   --text-white6: rgba(255, 255, 255, 0.6);}
 
 ul{list-style: none;}
 
-a {text-decoration: none;}
+a{text-decoration: none;}
 
 .header {background-color: var(--back-white);}
 
@@ -22,28 +21,29 @@ body{color: var(--text-grey);}
 
 .logo-hd span{ color: #000000;}
 
-.logo-ft span {color: var(--text-white);}
+.logo-ft span {color: var(--white);}
 
 /* Навигация */
 .main-nav a{color: var(--title-grey);}
 
-.main-nav a:hover,.main-nav a:focus {color: var(--main-blue);}
+.main-nav a:hover,
+.main-nav a:focus {color: var(--main-blue);}
 
 .main-nav .current {color: var(--main-blue);}
 
 /* Контакты */
 .contacts-hd a{color: var(--text-grey);}
 
-.contacts-hd a:hover,.contacts a:focus {color: var(--main-blue);}
+.contacts-hd a:hover,
+.contacts-hd a:focus {color: var(--main-blue);}
 
 /* Герой */
 .hero {background-color: var(--dark-back);}
 
-h1.title{color: var(--text-white);}
+h1.title{color: var(--white);}
 
-.btn {
-  background-color: var(--main-blue); 
-  color: var(--text-white);}
+.btn {background-color: var(--main-blue);
+  color: var(--white);}
 
 /* Наша команда */
 .team {background-color: var(--light-back);}
@@ -51,9 +51,22 @@ h1.title{color: var(--text-white);}
 /* Подвал */
 footer {background-color: var(--dark-back);}
 
-.our-address {color: var(--text-white);}
+.our-address {color: var(--white);}
 
 .contacts-ft a{color: var(--text-white6);}
 
 .contacts-ft a:hover,
 .contacts-ft a:focus {color: var(--main-blue);}
+
+/* Портфолио */
+
+.filter button{color: var(--title-grey);
+  background-color: var(--light-back);
+  border: none;}
+
+.filter button:hover,
+.filter button:focus{background-color: var(--main-blue);
+  color: var(--white);}
+
+.portfolio {background-color: var(--white);}
+
