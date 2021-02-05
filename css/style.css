@@ -1,43 +1,49 @@
-:root {--main-blue: #2196F3;--text-grey: #757575;--title-grey: #212121;--dark-back: #2F303A;--light-back: #F5F4FA;}
+:root{--main-blue: #2196F3;--text-grey: #757575;--title-grey: #212121;--dark-back: #2F303A;--light-back: #F5F4FA;--back-white: #ffffff; --text-white: #ffffff;--text-white6: rgba(255, 255, 255, 0.6);}
 
 ul{list-style: none;}
 
 a {text-decoration: none;}
 
+.header {background-color: var(--back-white);}
 
-.header {background-color: #ffffff ;}
+body{color: var(--text-grey);}
+
+.title{color: var(--title-grey);}
 
 /* Лого */
 .logo-hd,.logo-ft{color: var(--main-blue);}
 
 .logo-hd span{ color: #000000;}
 
-.logo-ft span {color: #ffffff;}
+.logo-ft span {color: var(--text-white);}
 
 /* Навигация */
 .main-nav a{color: var(--title-grey);}
 
 .main-nav a:hover,.main-nav a:focus {color: var(--main-blue);}
 
+.main-nav .current {color: var(--main-blue);}
 
+/* Контакты */
 .contacts-hd a{color: var(--text-grey);}
 
 .contacts-hd a:hover,.contacts a:focus {color: var(--main-blue);}
 
-
-body{color: var(--text-grey);}
-
-.title{color: var(--title-grey);}
-
 /* Герой */
 .hero {background-color: var(--dark-back);}
 
-h1.title{color: #ffffff;}
+h1.title{color: var(--text-white);}
 
-.btn {background-color: var(--main-blue); color: #ffffff;}
+.btn {background-color: var(--main-blue);color: var(--text-white);}
 
-
+/* Наша команда */
 .team {background-color: var(--light-back);}
 
-
+/* Подвал */
 footer {background-color: var(--dark-back);}
+
+.our-address {color: var(--text-white);}
+
+.contacts-ft a{color: var(--text-white6);}
+
+.contacts-ft a:hover,.contacts-ft a:focus {color: var(--main-blue);}
