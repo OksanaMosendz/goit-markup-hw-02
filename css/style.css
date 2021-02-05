@@ -1,4 +1,11 @@
-:root{--main-blue: #2196F3;--text-grey: #757575;--title-grey: #212121;--dark-back: #2F303A;--light-back: #F5F4FA;--back-white: #ffffff; --text-white: #ffffff;--text-white6: rgba(255, 255, 255, 0.6);}
+:root{--main-blue: #2196F3;
+  --text-grey: #757575;
+  --title-grey: #212121;
+  --dark-back: #2F303A;
+  --light-back: #F5F4FA;
+  --back-white: #ffffff;
+  --text-white: #ffffff;
+  --text-white6: rgba(255, 255, 255, 0.6);}
 
 ul{list-style: none;}
 
@@ -34,7 +41,9 @@ body{color: var(--text-grey);}
 
 h1.title{color: var(--text-white);}
 
-.btn {background-color: var(--main-blue);color: var(--text-white);}
+.btn {
+  background-color: var(--main-blue); 
+  color: var(--text-white);}
 
 /* Наша команда */
 .team {background-color: var(--light-back);}
@@ -46,4 +55,5 @@ footer {background-color: var(--dark-back);}
 
 .contacts-ft a{color: var(--text-white6);}
 
-.contacts-ft a:hover,.contacts-ft a:focus {color: var(--main-blue);}
+.contacts-ft a:hover,
+.contacts-ft a:focus {color: var(--main-blue);}
