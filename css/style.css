@@ -1,10 +1,43 @@
-:root{color: #2196F3
-    color: #000000;; }
-  
-    
+:root {--main-blue: #2196F3;--text-grey: #757575;--title-grey: #212121;--dark-back: #2F303A;--light-back: #F5F4FA;}
 
-.text {color: #757575}
+ul{list-style: none;}
 
-.title{color: #212121}
+a {text-decoration: none;}
 
-   
+
+.header {background-color: #ffffff ;}
+
+/* Лого */
+.logo-hd,.logo-ft{color: var(--main-blue);}
+
+.logo-hd span{ color: #000000;}
+
+.logo-ft span {color: #ffffff;}
+
+/* Навигация */
+.main-nav a{color: var(--title-grey);}
+
+.main-nav a:hover,.main-nav a:focus {color: var(--main-blue);}
+
+
+.contacts-hd a{color: var(--text-grey);}
+
+.contacts-hd a:hover,.contacts a:focus {color: var(--main-blue);}
+
+
+body{color: var(--text-grey);}
+
+.title{color: var(--title-grey);}
+
+/* Герой */
+.hero {background-color: var(--dark-back);}
+
+h1.title{color: #ffffff;}
+
+.btn {background-color: var(--main-blue); color: #ffffff;}
+
+
+.team {background-color: var(--light-back);}
+
+
+footer {background-color: var(--dark-back);}
