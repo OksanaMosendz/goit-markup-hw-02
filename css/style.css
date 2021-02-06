@@ -84,11 +84,15 @@ body {
 }
 
 /* Наши особенности */
-.hide-title
+
 
 /* Наша команда */
 .team {
   background-color: var(--light-back);
+}
+
+.team-list li{
+  background-color: var(--white);
 }
 
 /* Подвал */
@@ -123,6 +127,5 @@ body {
   color: var(--white);
 }
 
-.portfolio { background-color: var(--white);
+.portfolio li{ background-color: var(--white);
 }
-
