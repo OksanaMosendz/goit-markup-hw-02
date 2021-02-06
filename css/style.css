@@ -1,72 +1,128 @@
-:root{--main-blue: #2196F3;
+:root {
+  --main-blue: #2196F3;
   --text-grey: #757575;
   --title-grey: #212121;
   --dark-back: #2F303A;
   --light-back: #F5F4FA;
   --white: #ffffff;
-  --text-white6: rgba(255, 255, 255, 0.6);}
+  --text-white6: rgba(255, 255, 255, 0.6);
+}
 
-ul{list-style: none;}
+ul {
+  list-style: none;
+}
 
-a{text-decoration: none;}
+a {
+  text-decoration: none;
+}
 
-.header {background-color: var(--back-white);}
+address {
+  font-style: normal;
+}
 
-body{color: var(--text-grey);}
+body {
+  color: var(--text-grey);
+}
 
-.title{color: var(--title-grey);}
+/* ???? */
+.title {
+  color: var(--title-grey);
+}
+
+/* Шапка */
+.header {
+  background-color: var(--white);}
+
+.header-nav a {
+  color: var(--title-grey);
+}
+
+.header-nav a:hover,
+.header-nav a:focus {
+  color: var(--main-blue);
+}
+
+.header-nav .current {
+  color: var(--main-blue);
+}
+
+.header-contacts a {
+  color: var(--text-grey);
+}
+
+.header-contacts a:hover,
+.header-contacts a:focus {
+  color: var(--main-blue);
+}
 
 /* Лого */
-.logo-hd,.logo-ft{color: var(--main-blue);}
+.header-logo, 
+.footer-logo{color: var(--main-blue);}
 
-.logo-hd span{ color: #000000;}
+.header-logo span {
+  color: #000000;
+}
 
-.logo-ft span {color: var(--white);}
-
-/* Навигация */
-.main-nav a{color: var(--title-grey);}
-
-.main-nav a:hover,
-.main-nav a:focus {color: var(--main-blue);}
-
-.main-nav .current {color: var(--main-blue);}
-
-/* Контакты */
-.contacts-hd a{color: var(--text-grey);}
-
-.contacts-hd a:hover,
-.contacts-hd a:focus {color: var(--main-blue);}
+.footer-logo span {
+  color: var(--white);
+}
 
 /* Герой */
-.hero {background-color: var(--dark-back);}
+.hero {
+  background-color: var(--dark-back);
+}
 
-h1.title{color: var(--white);}
+.hero .title {
+  color: var(--white);
+  text-transform: uppercase;
+  text-align: center;
+}
 
-.btn {background-color: var(--main-blue);
-  color: var(--white);}
+.hero-btn {
+  background-color: var(--main-blue);
+  color: var(--white);
+}
+
+/* Наши особенности */
+.hide-title
 
 /* Наша команда */
-.team {background-color: var(--light-back);}
+.team {
+  background-color: var(--light-back);
+}
 
 /* Подвал */
-footer {background-color: var(--dark-back);}
+.footer {
+  background-color: var(--dark-back);
+}
 
-.our-address {color: var(--white);}
+.footer-address {
+  color: var(--white);
+}
 
-.contacts-ft a{color: var(--text-white6);}
+.footer-contacts a {
+  color: var(--text-white6);
+}
 
-.contacts-ft a:hover,
-.contacts-ft a:focus {color: var(--main-blue);}
+.footer-contacts a:hover,
+.footer-contacts a:focus {
+  color: var(--main-blue);
+}
 
 /* Портфолио */
 
-.filter button{color: var(--title-grey);
+.filter button {
+  color: var(--title-grey);
   background-color: var(--light-back);
-  border: none;}
+  border: none;
+}
 
 .filter button:hover,
-.filter button:focus{background-color: var(--main-blue);
-  color: var(--white);}
+.filter button:focus {
+  background-color: var(--main-blue);
+  color: var(--white);
+}
 
-.portfolio {background-color: var(--white);}
+.portfolio { background-color: var(--white);
+}
 
