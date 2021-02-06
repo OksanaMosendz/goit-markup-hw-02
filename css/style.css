@@ -20,7 +20,8 @@ address {
   font-style: normal;
 }
 
-body {
+body { 
+  font-family: 'Roboto', sans-serif;
   color: var(--text-grey);
 }
 
@@ -57,7 +58,8 @@ body {
 
 /* Лого */
 .header-logo, 
-.footer-logo{color: var(--main-blue);}
+.footer-logo{color: var(--main-blue);
+  font-family: 'Raleway', sans-serif;}
 
 .header-logo span {
   color: #000000;
