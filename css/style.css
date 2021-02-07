@@ -23,10 +23,9 @@ body {
   letter-spacing: 0.03em;
 }
 
-/* ???? */
-.title {
+h2,h3 {
   color: var(--title-grey);
-}
+} 
 
 /* Шапка */
 .header {
@@ -107,7 +106,7 @@ body {
 
 /* .hide-title{} */
 
-.features .title{
+.features-list h3{
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -117,7 +116,17 @@ body {
 .features p{
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.71;}
+  line-height: 1.71;
+}
+
+/* Чем мы занимаемся */
+.specialty-title,.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
 
 /* Наша команда */
 .team {
@@ -128,13 +137,26 @@ body {
   background-color: var(--white);
 }
 
+.team-list h3{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.team-list p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;}
+
 /* Подвал */
 .footer {
   background-color: var(--dark-back);
 }
 
-address {
+.footer-address, .footer-contacts{
   font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 .footer-address {
